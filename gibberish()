@@ -1,0 +1,6 @@
+def gibberish(*args):
+  hodgepodge=""
+  for word in args:
+    hodgepodge += word
+  return hodgepodge
+one_word = gibberish("luke")
